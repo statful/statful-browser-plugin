@@ -1,1 +1,1 @@
-# statful-browser-plugin
+# Statful Browser Plugin
