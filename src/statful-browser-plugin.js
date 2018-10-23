@@ -6,13 +6,14 @@ export default class StatfulBrowserPlugin {
         this.name = PACKAGE_NAME;
         this.version = PACKAGE_VERSION;
         this.tags = {};
+
         if (browser) {
             const result = browser.getResult();
 
             if (result) {
                 if (result.browser) {
                     this.tags.browser = result.browser.name;
-                    this.tags['browser_version'] = result.browser.version;
+                    this.tags.browser_version = result.browser.version;
                 }
 
                 if (result.platform) {
@@ -21,7 +22,7 @@ export default class StatfulBrowserPlugin {
 
                 if (result.os) {
                     this.tags.os = result.os.name;
-                    this.tags['os_version'] = result.os.version;
+                    this.tags.os_version = result.os.version;
                 }
             }
         }

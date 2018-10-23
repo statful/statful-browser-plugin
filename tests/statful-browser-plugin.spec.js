@@ -38,7 +38,7 @@ describe('Statful Browser Plugin', () => {
                     return {
                         browser: {
                             name: 'Chrome',
-                            version: '69'
+                            version: '69.1.2'
                         },
                         platform: {
                             type: 'desktop'
@@ -57,7 +57,7 @@ describe('Statful Browser Plugin', () => {
         expect(instance.version).toEqual('1.0.0');
         expect(instance.tags).toEqual({
             browser: 'Chrome',
-            browser_version: '69',
+            browser_version: '69.1.2',
             device: 'desktop',
             os: 'os',
             os_version: '2.0.0'
@@ -100,7 +100,7 @@ describe('Statful Browser Plugin', () => {
                     return {
                         browser: {
                             name: 'Chrome',
-                            version: '69'
+                            version: '69.1.2'
                         },
                         os: {
                             name: 'os',
@@ -116,7 +116,7 @@ describe('Statful Browser Plugin', () => {
         expect(instance.version).toEqual('1.0.0');
         expect(instance.tags).toEqual({
             browser: 'Chrome',
-            browser_version: '69',
+            browser_version: '69.1.2',
             os: 'os',
             os_version: '2.0.0'
         });
@@ -130,7 +130,7 @@ describe('Statful Browser Plugin', () => {
                     return {
                         browser: {
                             name: 'Chrome',
-                            version: '69'
+                            version: '69.1.2'
                         },
                         platform: {
                             type: 'desktop'
@@ -145,7 +145,7 @@ describe('Statful Browser Plugin', () => {
         expect(instance.version).toEqual('1.0.0');
         expect(instance.tags).toEqual({
             browser: 'Chrome',
-            browser_version: '69',
+            browser_version: '69.1.2',
             device: 'desktop'
         });
     });
