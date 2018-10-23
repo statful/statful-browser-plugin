@@ -1,8 +1,9 @@
 {
   "name": "statful-browser-plugin",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Statful Browser Plugin",
+  "main": "dist/statful-browser-plugin.min.js",
+  "browser": "dist/statful-browser-plugin.umd.min.js",
   "scripts": {
     "eslint": "eslint .",
     "test": "npm run eslint && jest --coverage",
