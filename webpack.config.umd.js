@@ -17,7 +17,13 @@ module.exports = () => {
             libraryTarget: 'umd',
             libraryExport: 'default'
         },
-        plugins: [new webpack.BannerPlugin(banner)],
+        plugins: [
+            new webpack.BannerPlugin(banner),
+            new webpack.DefinePlugin({
+                PACKAGE_NAME: JSON.stringify(process.env.npm_package_name),
+                PACKAGE_VERSION: JSON.stringify(process.env.npm_package_version)
+            })
+        ],
         module: {
             rules: [
                 {
@@ -25,11 +31,7 @@ module.exports = () => {
                     exclude: /node_modules/,
                     use: [
                         {
-                            loader: 'babel-loader',
-                            options: {
-                                presets: ['@babel/preset-env'],
-                                plugins: ['babel-plugin-add-module-exports']
-                            }
+                            loader: 'babel-loader'
                         }
                     ]
                 }
