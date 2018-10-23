@@ -4,7 +4,6 @@ Statful plugin to capture browser information and add it on your metrics.
 
 [![Build Status](https://travis-ci.org/statful/statful-browser-plugin.svg?branch=master)](https://travis-ci.org/statful/statful-browser-plugin)
 [![devDependency Status](https://david-dm.org/statful/statful-browser-plugin/dev-status.svg)](https://david-dm.org/statful/statful-browser-plugin#info=devDependencies)
-[![install size](https://packagephobia.now.sh/badge?p=statful-browser-plugin)](https://packagephobia.now.sh/result?p=statful-browser-plugin)
 
 ## Installation
 
