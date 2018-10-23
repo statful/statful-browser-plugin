@@ -11,6 +11,7 @@ Statful plugin to capture browser information and add it on your metrics.
 * [Installation](#installation)
 * [Quick Start](#quick-start)
 * [Tags](#tags)
+* [Contribute](#contribute)
 * [Authors](#authors)
 * [License](#license)
 
@@ -54,6 +55,15 @@ These tags are only populated if available.
 | os | os name| 
 | os_version | os version| 
 
+
+## Contribute
+
+Follow the standard *Fork and Pull Request* workflow and:
+
+* Add tests for new feats
+* Make sure the test suite passes
+* Update or add documentation accordingly
+
 ### Installation
 
 ```bash
@@ -65,14 +75,6 @@ $ npm install
 ```bash
 $ npm test
 ```
-
-### Contribute
-
-Follow the standard *Fork and Pull Request* workflow and:
-
-* Add tests for new feats
-* Make sure the test suite passes
-* Update or add documentation accordingly
 
 ## Authors
 
