@@ -5,6 +5,15 @@ Statful plugin to capture browser information and add it on your metrics.
 [![Build Status](https://travis-ci.org/statful/statful-browser-plugin.svg?branch=master)](https://travis-ci.org/statful/statful-browser-plugin)
 [![devDependency Status](https://david-dm.org/statful/statful-browser-plugin/dev-status.svg)](https://david-dm.org/statful/statful-browser-plugin#info=devDependencies)
 
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Quick Start](#quick-start)
+* [Tags](#tags)
+* [Authors](#authors)
+* [License](#license)
+
 ## Installation
 
 ```
