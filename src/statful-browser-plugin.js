@@ -17,7 +17,7 @@ export default class StatfulBrowserPlugin {
                 }
 
                 if (result.platform) {
-                    this.tags.device = result.platform.type;
+                    this.tags.device_type = result.platform.type;
                 }
 
                 if (result.os) {

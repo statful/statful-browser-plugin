@@ -58,7 +58,7 @@ describe('Statful Browser Plugin', () => {
         expect(instance.tags).toEqual({
             browser: 'Chrome',
             browser_version: '69.1.2',
-            device: 'desktop',
+            device_type: 'desktop',
             os: 'os',
             os_version: '2.0.0'
         });
@@ -86,7 +86,7 @@ describe('Statful Browser Plugin', () => {
         expect(instance.name).toEqual('statful-browser-plugin');
         expect(instance.version).toEqual('1.0.0');
         expect(instance.tags).toEqual({
-            device: 'desktop',
+            device_type: 'desktop',
             os: 'os',
             os_version: '2.0.0'
         });
@@ -146,7 +146,7 @@ describe('Statful Browser Plugin', () => {
         expect(instance.tags).toEqual({
             browser: 'Chrome',
             browser_version: '69.1.2',
-            device: 'desktop'
+            device_type: 'desktop'
         });
     });
 });

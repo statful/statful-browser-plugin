@@ -51,7 +51,7 @@ These tags are only populated if available.
 |:---|:---|
 | browser | browser name |
 | browser_version | browser version | 
-| device | device type (desktop, tablet or mobile)|
+| device_type | device type (desktop, tablet or mobile)|
 | os | os name| 
 | os_version | os version| 
 
