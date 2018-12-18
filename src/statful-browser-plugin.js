@@ -33,6 +33,10 @@ export default class StatfulBrowserPlugin {
     }
 
     escape(str) {
-        return str.replace(/\s+/g, '-');
+        if (typeof str === 'string') {
+            return str.replace(/\s+/g, '-');
+        } else {
+            return str;
+        }
     }
 }
