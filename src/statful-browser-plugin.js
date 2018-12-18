@@ -26,5 +26,13 @@ export default class StatfulBrowserPlugin {
                 }
             }
         }
+
+        Object.keys(this.tags).forEach(key => {
+            this.tags[key] = this.escape(this.tags[key]);
+        });
+    }
+
+    escape(str) {
+        return str.replace(/\s+/g, '-');
     }
 }
